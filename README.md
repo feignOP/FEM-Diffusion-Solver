@@ -13,6 +13,7 @@ The goal of this project is to provide a lightweight but extensible FEM codebase
 
 ## Repository Structure
 
+```text
 FemFrameWork/              # Shape functions, Gauss points, ID matrices, FEM utilities
 Physics_models/            # Diffusion kernel (local matrices, D-matrix, load)
 Kernel/                    # High-level assembly and solver routines
@@ -20,7 +21,7 @@ DataFiles/                 # Meshes with boundary-condition data (.npz)
 VTKoutputs/                # VTK output files for ParaView
 test_functions/            # Unit tests for FEM components
 pictures/                  # Solution figures and mesh visuals
-steadystate_diffusion.ipynb   # Main example notebook
+steadystate_diffusion.ipynb  # Main example notebook
 README.md
 
 ## Installation
