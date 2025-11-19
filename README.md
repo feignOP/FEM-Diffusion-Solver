@@ -23,6 +23,7 @@ test_functions/            # Unit tests for FEM components
 pictures/                  # Solution figures and mesh visuals
 steadystate_diffusion.ipynb  # Main example notebook
 README.md
+```
 
 ## Installation
 
